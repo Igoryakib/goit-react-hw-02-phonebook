@@ -12,7 +12,7 @@ const ListContacts = ({ contacts, onDeleteContact, btnText }) => {
           <ContactItem
             key={item.id} 
             itemArray={item}
-            onDelete={onDeleteContact}
+            onDelete={()=>{onDeleteContact(item.id)}}
             btnText={btnText}
           />
         );

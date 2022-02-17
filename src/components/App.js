@@ -1,6 +1,6 @@
 import React from "react";
 import SectionPhoneBook from "./SectionPhoneBook/SectionPhoneBook";
-import PhoneBook from "./Form/PhoneBook";
+import PhoneBook from "./ContactForm/PhoneBook";
 
 const App = () => {
     return(

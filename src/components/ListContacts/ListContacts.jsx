@@ -27,4 +27,8 @@ ListContacts.propTypes = {
   btnText: PropTypes.string
 };
 
+ListContacts.defaultProps = {
+  btnText: '',
+};
+
 export default ListContacts;

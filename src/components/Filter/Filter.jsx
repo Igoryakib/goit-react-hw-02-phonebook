@@ -23,7 +23,7 @@ const Filter = ({ value, handleOnChange }) => {
 
 Filter.propTypes = {
   handleOnChange: PropTypes.func.isRequired,
-  value: PropTypes.string
+  value: PropTypes.string.isRequired
 };
 
 export default Filter;

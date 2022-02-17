@@ -22,4 +22,8 @@ ContactItem.propTypes = {
   btnText: PropTypes.string,
 };
 
+ContactItem.defaultProps = {
+  btnText: '',
+};
+
 export default ContactItem;

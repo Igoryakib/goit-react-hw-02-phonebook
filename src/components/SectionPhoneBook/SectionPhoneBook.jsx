@@ -15,6 +15,7 @@ const SectionPhoneBook = ({ title, children }) => {
 
 SectionPhoneBook.propTypes = {
   title: PropTypes.string,
+  children: PropTypes.isRequired,
 }
 
 export default SectionPhoneBook;
